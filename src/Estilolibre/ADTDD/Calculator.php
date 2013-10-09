@@ -8,7 +8,13 @@ namespace Estilolibre\ADTDD;
  * @author isidromerayo
  */
 class Calculator {
+    /**
+     * 
+     * @param type $arg1
+     * @param type $arg2
+     * @return type
+     */
     public function add($arg1, $arg2) {
-        return 4;
+        return $arg1 + $arg2;
     }
 }

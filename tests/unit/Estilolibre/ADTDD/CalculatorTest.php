@@ -8,16 +8,20 @@ namespace UnitTest\Estilolibre\ADTDD;
  * @author isidromerayo
  */
 class CalculatorTest extends \PHPUnit_Framework_TestCase {
+    
+    private $calculator;
+    public function setUp() {
+        $this->calculator = new \Estilolibre\ADTDD\Calculator();
+    }
+
     /** @test */
     public function add() {
-        $calculator = new \Estilolibre\ADTDD\Calculator();
-        $result = $calculator->add(2, 2);
+        $result = $this->calculator->add(2, 2);
         $this->assertEquals(4, $result);
     }
     /** @test */
     public function addWithDifferentArguments() {
-        $calculator = new \Estilolibre\ADTDD\Calculator();
-        $result = $calculator->add(2, 5);
+        $result = $this->calculator->add(2, 5);
         $this->assertEquals(7, $result);
     }
 }
