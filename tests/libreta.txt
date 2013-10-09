@@ -1,7 +1,7 @@
-¿Puede ser negativo el resultado de una resta en nuestra calculadora?
-Confirmar efectivamente el orden de los parámetros produce resultados diferentes
 Aceptación - "2 + 2" = 4
-  Sumar 2 al número 2, devuelve 4
-  Restar 3 al número 5, devuelve 2
   La cadena "2 + 2" tiene dos números y un operador, son '2', '2' y '+'
-Aceptación - "5 + 4 * 2 / 2", devuelve 9 
+Aceptación - "5 + 4 * 2 / 2", devuelve 9
+¿Cual es el número más pequeño que se admite como parámetro?
+¿y el más grande?
+¿que pasa cuando el resultado es menor que el número más pequeño permitido?
+¿que pasa cuando el resultado es mayor que el número más grande permitido?

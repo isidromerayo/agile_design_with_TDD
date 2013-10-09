@@ -29,4 +29,10 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase {
         $result = $this->calculator->substract(5, 3);
         $this->assertEquals(2, $result);
     }
+    /** @test */
+    public function substractReturningNegative() {
+        $result = $this->calculator->substract(3, 5);
+        $this->assertEquals(-2, $result);
+    }
+
 }
