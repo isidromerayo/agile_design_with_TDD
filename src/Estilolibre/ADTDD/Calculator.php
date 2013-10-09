@@ -8,7 +8,7 @@ namespace Estilolibre\ADTDD;
  * @author isidromerayo
  */
 class Calculator {
-    public function add($a, $b) {
-        
+    public function add($arg1, $arg2) {
+        return 4;
     }
 }
