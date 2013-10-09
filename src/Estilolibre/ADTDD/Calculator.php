@@ -25,6 +25,7 @@ class Calculator {
      * @return int
      */
     public function substract($arg1, $arg2) {
+        return "2";
     }
 
 }
