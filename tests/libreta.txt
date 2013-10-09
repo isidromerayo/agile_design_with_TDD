@@ -1,0 +1,5 @@
+Aceptación - "2 + 2" = 4
+  Sumar 2 al número 2, devuelve 4
+  Restar 3 al número 5, devuelve 2
+  La cadena "2 + 2" tiene dos números y un operador, son '2', '2' y '+'
+Aceptación - "5 + 4 * 2 / 2", devuelve 9 
