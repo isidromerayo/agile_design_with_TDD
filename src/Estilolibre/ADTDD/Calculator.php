@@ -10,11 +10,21 @@ namespace Estilolibre\ADTDD;
 class Calculator {
     /**
      * 
-     * @param type $arg1
-     * @param type $arg2
-     * @return type
+     * @param int $arg1
+     * @param int $arg2
+     * @return int
      */
     public function add($arg1, $arg2) {
         return $arg1 + $arg2;
     }
+
+    /**
+     * 
+     * @param int $arg1
+     * @param int $arg2
+     * @return int
+     */
+    public function substract($arg1, $arg2) {
+    }
+
 }

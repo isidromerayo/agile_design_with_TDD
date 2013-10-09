@@ -24,4 +24,9 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase {
         $result = $this->calculator->add(2, 5);
         $this->assertEquals(7, $result);
     }
+    /** @test */
+    public function substract() {
+        $result = $this->calculator->substract(5, 3);
+        $this->assertEquals(2, $result);
+    }
 }

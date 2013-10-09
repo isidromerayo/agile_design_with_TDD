@@ -1,3 +1,5 @@
+¿Puede ser negativo el resultado de una resta en nuestra calculadora?
+Confirmar efectivamente el orden de los parámetros produce resultados diferentes
 Aceptación - "2 + 2" = 4
   Sumar 2 al número 2, devuelve 4
   Restar 3 al número 5, devuelve 2
