@@ -1,7 +1,5 @@
 <?php
-
 namespace Estilolibre\ADTDD;
-
 /**
  * Description of Calculator
  *

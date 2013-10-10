@@ -1,6 +1,5 @@
 <?php
-
-namespace UnitTest\Estilolibre\ADTDD;
+namespace Unit\Estilolibre\ADTDD;
 
 /**
  * Description of CalculatorTest
@@ -34,5 +33,4 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase {
         $result = $this->calculator->substract(3, 5);
         $this->assertEquals(-2, $result);
     }
-
 }
